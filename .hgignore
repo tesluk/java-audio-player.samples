@@ -1,3 +1,17 @@
-dist/*
-build/*
-test_mp3/*
+# Java files
+*.class
+bin
+
+# build files
+target
+.PKG_STAMP
+*effective-pom.xml
+*dependency-reduced-pom.xml
+*pom-jenkins.xml
+
+# IDE files
+*.iml
+.classpath
+.project
+.settings
+.idea
